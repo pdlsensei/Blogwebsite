@@ -37,6 +37,7 @@ export default function RootLayout({
   return (
     <html>
       <head>
+        <meta name="google-adsense-account" content="ca-pub-9727145484029256">
         {process.env.NODE_ENV === "production" && (
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9727145484029256"
      crossorigin="anonymous"></script>
